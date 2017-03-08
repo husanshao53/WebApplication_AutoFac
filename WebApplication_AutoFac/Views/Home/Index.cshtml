@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h2>WebApp </h2>
+    <p class="lead">@ViewBag.SqlResult</p>
+    <p>
+        @Html.ActionLink("跳转到Product页面", "Index", "Product", null, new { @class = "btn btn-primary btn-large" })
+    </p>
+</div>
